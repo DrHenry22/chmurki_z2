@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-push-images:
-    name: Zadanie 2.4
+    name: Zadanie 2.4 z cachem
     runs-on: ubuntu-latest
 
     steps:
@@ -32,5 +32,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: drhenry22/chmurki2:image4
-          cache-from: type=registry,ref=drhenry22/app:buildcache
-          cache-to: type=registry,ref=drhenry22/app:buildcache,mode=max
+          cache-from: type=registry,ref=drhenry22/chmurki2:image4-cache
+          cache-to: type=registry,ref=drhenry22/chmurki2:image4-cache,mode=max
