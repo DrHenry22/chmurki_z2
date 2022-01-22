@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-push-images:
-    name: chmurki_z2
+    name: chmurki2
     runs-on: ubuntu-latest
 
     steps:
@@ -32,4 +32,4 @@ jobs:
           context: ./
           file: ./dockerfile.v1
           push: true
-          tags: drhenry22/chmurki_z2:z1
+          tags: drhenry22/chmurki2:z1
