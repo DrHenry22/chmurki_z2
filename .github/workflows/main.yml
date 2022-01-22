@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-push-images:
-    name: chmurki2
+    name: Zadanie 2.1
     runs-on: ubuntu-latest
 
     steps:
