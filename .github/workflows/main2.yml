@@ -37,4 +37,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64, linux/arm64/v8, linux/arm/v7 
           push: true
-          tags: drhenry22/chmurki2:image2
+          tags: drhenry22/chmurki2:img2
