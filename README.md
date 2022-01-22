@@ -3,7 +3,7 @@
 [https://github.com/DrHenry22/chmurki_z2](https://github.com/DrHenry22/chmurki_z2])
 [https://hub.docker.com/repository/docker/drhenry22/chmurki2/](https://hub.docker.com/repository/docker/drhenry22/chmurki2/)
 ### Zadanie 1
-[Link do zadania Github Actions](hhttps://github.com/DrHenry22/chmurki_z2/actions/runs/1732853217)
+[Link do zadania Github Actions](https://github.com/DrHenry22/chmurki_z2/actions/runs/1732853217)
 Do wykonania zadania 1 wykorzystano plik Dockerfile, przy pomocy którego budowana jest aplikacja webowa. W celu uruchomienia zadania poprzez Github Actions stworzono workflow, w którym użyto pliku [main.yml](https://github.com/DrHenry22/chmurki_z2/blob/master/.github/workflows/main.yml).
 ### Zadanie 2
 [Link do zadania Github Actions](https://github.com/DrHenry22/chmurki_z2/actions/runs/1732883250)
