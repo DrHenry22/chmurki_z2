@@ -30,7 +30,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: ./
-          file: ./Dockerfile
+          file: ./dockerfile.v1
           push: true
           tags: drhenry22/chmurki_z2:image1
           
